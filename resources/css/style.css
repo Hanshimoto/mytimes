@@ -20,10 +20,6 @@ a {
   color: black;
 }
 
-h2 {
-  display: block;
-}
-
 nav span {
   display: inline-block;
   padding: 20px 10px;
@@ -82,14 +78,92 @@ div {
 }
 
 .text {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   padding: 10px 0px;
 }
 
 .story {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .stories {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   border: 1px solid black;
+}
+
+.img-story-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  width: 630px;
+  height: 300px;
+}
+
+.img-story-main span {
+  margin-left: 20px;
+  width: 610px;
+  color: White;
+  font-family: Georgia;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.img-story-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  width: 299px;
+  height: 300px;
+}
+
+.img-story-2 span {
+  width: 290px;
+  color: White;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img-story-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  width: 299px;
+  height: 300px;
+}
+
+.img-story-3 span {
+  width: 290px;
+  color: White;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img-story-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  width: 299px;
+  height: 300px;
+}
+
+.img-story-1 span {
+  width: 290px;
+  color: White;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
 }
