@@ -53,16 +53,16 @@ div {
 
 .main {
   display: flex;
-  width: 1200px;
+  width: 1232px;
   border: 1px solid black;
-  margin: 0px auto 80px auto;
+  margin: 0 auto 78px auto;
   padding-top: 120px;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  margin-right: 30px;
+  margin-right: 32px;
 }
 
 .column.large {
@@ -165,4 +165,24 @@ div {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+}
+
+.cookie {
+  height: 240px;
+}
+
+.news-bytes {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.list-news-bytes {
+  display: block;
+  padding: 11px 16px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
 }
